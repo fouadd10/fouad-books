@@ -1,0 +1,68 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+
+header{
+     min-height: 100vh;
+     background:  linear-gradient(rgba(183, 158, 90, 0.585)  ,rgba(183, 158, 90, 0.585)),url('../images/books.jpg');
+     background-position: center;
+     background-size: cover; 
+}  
+.navbar{
+  /*  box-shadow:x y blur color ;*/
+  box-shadow: 0 6px 20px rgba(216, 205, 175, 0.585)  ;
+}
+.navbar-brand , .nav-link {
+    color:white;
+    font-size: 2.3rem;
+    
+    
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-right: 40px  !important; 
+}
+.nav-link.active , .nav-link :hover{
+    columns: white  !important;
+}
+.btn {
+    background-color: rgba(182, 184, 153, 0.278);
+}
+h3{
+    font-size: 2.3rem;
+    padding: 5px;
+    font-weight: bolder;
+    
+}
+.card{
+    background-color:rgb(198, 212, 0, 0.278);
+}
+.authors{
+    margin-top: -70px;
+}
+footer{
+    padding: 40px 0px;
+    background-color: rgba(103, 103, 103, 0.848);
+}
+    
+
+footer p{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-nav , .social-nav {
+    list-style: none;
+    display: flex;
+}
+    
+    .footer-nav li a , .social-nav li a{
+        text-decoration: none;
+        color: antiquewhite;
+       }
+
+       .footer-nav li , .social-nav li {
+        margin-right: 70px;
+       }
